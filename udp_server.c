@@ -75,7 +75,7 @@ int main() {
         printf("Response sent to %s:%d\n", client_ip, ntohs(client_addr.sin_port));
     }
 
-    // Close the socket (unreachable in this code, but added for good practice)
+    // Close the socket
     close(sockfd);
     return 0;
 }
